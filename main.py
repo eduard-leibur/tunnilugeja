@@ -3,6 +3,8 @@ print("1 - sisesta töötunde\n"
       "3 - lõpeta töö")
 sisend = input("Vali tegevus: ")
 if sisend == "1":
+      tunde = int(input("Mitu tundi? "))
+      minuteid = int(input("Mitu minutit? "))
 
 elif sisend == "2":
 
